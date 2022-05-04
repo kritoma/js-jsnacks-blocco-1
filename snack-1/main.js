@@ -5,8 +5,6 @@ const secondNumber = Number(prompt("inserisci un altro numero"));
 
 if ( firstNumber > secondNumber) {
     alert(firstNumber)
-} else if (firstNumber < secondNumber ) {
-    alert(secondNumber)
 } else {
-    alert("pari")
+    alert(secondNumber)
 }
