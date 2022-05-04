@@ -1,9 +1,9 @@
 
-let numbers 
+let result = 0;
 
 for (let i = 0; i < 10; i++) {
-    numbers = Number(prompt("inserisci un numero"))
+    let numbers = Number(prompt("inserisci un numero"));
+    result += numbers;
 }
 
- let somma = numbers + numbers + numbers + numbers + numbers + numbers + numbers + numbers +numbers + numbers
-console.log(somma)
+console.log(result);
