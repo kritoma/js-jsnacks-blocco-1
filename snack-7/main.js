@@ -5,8 +5,10 @@ const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", 
     function(){
-        const nameRandom = (Math.floor(Math.random) * listName.length);
-        const surnameRandom = (Math.floor(Math.random) * listSurname.length);
+        const nameRandom = Math.floor(Math.random() * listName.length);
+        const surnameRandom = Math.floor(Math.random() * listSurname.length);
+
+        console.log(nameRandom, surnameRandom)
 
        let fullName = listName[nameRandom] + " " + listSurname[surnameRandom];
        console.log(fullName);
